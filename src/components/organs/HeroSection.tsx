@@ -3,6 +3,7 @@ import { Image } from "../atoms/Image"
 import HeroImg1 from "../../assets/images/ben-wiens-3vuNTi8KopU-unsplash.jpg"
 import HeroImg2 from "../../assets/images/tbz-siddique-rDf1xWxJzMI-unsplash.jpg"
 import HeroImg3 from "../../assets/images/ff.png"
+import HeroImg4 from "../../assets/images/poesia.jpg"
 
 
 import { HeroTexts } from "../particles/Data";
@@ -52,6 +53,8 @@ const HeroSection = () => {
                 return HeroImg2;
             case 2:
                 return HeroImg3;
+            case 3:
+                return HeroImg4;
             default:
                 return "";
         }

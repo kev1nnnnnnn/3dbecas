@@ -61,13 +61,20 @@ export const HeroTexts = [
          
             ],
         Button: "Realizar inscrição",
-        link: "https://forms.gle/3YcxNsBJHjj9LWCm6"
+        link: "https://forms.gle/5RS9oByh3XzZcthp9"
     },
-    // {
-    //     Heading: "Bar, sinuca e jogos",
-    //     Paragraph: "Bem-vindo à 3D Becas, onde a diversão tá no título, a vibe é no bar, as tacadas são na sinuca e os jogos são a cereja no topo! Vem colar com a gente e curtir a melhor combinação de diversão e estilo.",
-    //     Button: "Contato"
-    // }
+    {
+        Heading: "Poesia Slam",
+        Prizes: [
+            "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição",
+            "inscrição é somente um KG de alimento",
+        
+         
+            ],
+        Button: "Realizar inscrição",
+        link: "https://forms.gle/U8fU5qaQNmepVjM66"
+    },
+
 ]
 
 
