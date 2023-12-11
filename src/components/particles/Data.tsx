@@ -35,7 +35,7 @@ export const HeroTexts = [
         "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição, lembrando que o valor da inscrição é somente um KG de alimento",
         "1º lugar: R$ 300,00",
         "2º lugar: R$ 150,00",
-        "3º lugar: Conjunto esportivo (camisa/calção) + R$ 100,00"
+        "3º lugar: Conjunto esportivo (camisa/calção) no valor de: R$ 100,00"
         ],
         Button: "Realizar inscrição",
         link: "https://forms.gle/u32co2WR6uUkhoAs7"
@@ -47,7 +47,7 @@ export const HeroTexts = [
             "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição, lembrando que o valor da inscrição é somente um KG de alimento",
             "1º lugar: R$ 300,00",
             "2º lugar: R$ 150,00",
-            "3º lugar: uma tatuagem R$ 100,00"
+            "3º lugar: uma tatuagem no valor de: R$ 100,00"
             ],
         Button: "Realizar inscrição",
         link: "https://forms.gle/3YcxNsBJHjj9LWCm6"
