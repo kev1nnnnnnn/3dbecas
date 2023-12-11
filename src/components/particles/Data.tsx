@@ -92,11 +92,11 @@ export const OfferTexts = {
     list: [
         {
             listCaption: "Batalha de Rima",
-             text: "1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: Conjunto esportivo (camisa/calção) + R$ 100,00"
+             text: "1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: Conjunto esportivo (camisa/calção) no valor de: R$ 100,00"
         },
         {
             listCaption: "Batalha de Break",
-            text:"1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: uma tatuagem R$ 100,00",
+            text:"1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: uma tatuagem no valor de: R$ 100,00",
         }
         , {
             listCaption: "Pocket Shows",
