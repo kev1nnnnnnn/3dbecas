@@ -2,8 +2,6 @@ import { Image } from "../atoms/Image"
 import ContactImg from "../../assets/patrocinios/contact.jpg"
 import { Text } from "../atoms/Text"
 import { ContactTexts } from "../particles/Data"
-import { Button } from "../atoms/Button"
-
 
 const Contact = () => {
     return (
@@ -19,9 +17,9 @@ const Contact = () => {
                 <Text as="p" className="text-zinc-100 md:w-1/2 w-4/5 text-center text-lg my-6">
                     {ContactTexts.paragraph}
                 </Text>
-                <Button className="px-10 font-medium text-white py-2.5 bg-gradient-to-r from-blue-500 to-cyan-500 whitespace-nowrap" type="button">
+                <a href="https://wa.me/5592984454069?text=Ol%C3%A1%21" target="_blank" className="px-10 font-medium text-white py-2.5 bg-gradient-to-r from-blue-500 to-cyan-500 whitespace-nowrap" type="button">
                     {ContactTexts.button}
-                </Button>
+                </a>
             </div>
         </section>
 

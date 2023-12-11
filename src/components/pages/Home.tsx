@@ -6,19 +6,21 @@ import Arrecad from "../organs/Arrecad"
 
 
 import Testimonials from "../organs/Testimonials"
+import Blogs from "../organs/Blogs"
+import Offers from "../organs/Offers"
 
 
 const Home = () => {
     return (
         <>
             <HeroSection />
-            <About />
+            <Offers />
             <Arrecad />
-            {/* <Offers />
-            <Membership /> */}
-            {/* <Calculator /> */}
+            {/* <Membership /> 
+             <Calculator /> */}
             <Testimonials />
-            {/* <Blogs /> */}
+             <About />
+            <Blogs />
             <Contact />
         </>
     )

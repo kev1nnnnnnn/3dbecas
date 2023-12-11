@@ -30,7 +30,7 @@ export const NavLinks = [
 export const HeroTexts = [
  
     {
-        Heading: "Batalha de Rima - Hip Hop teste",
+        Heading: "Batalha de Rima",
         Prizes: [
         "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição, lembrando que o valor da inscrição é somente um KG de alimento",
         "1º lugar: R$ 300,00",
@@ -42,12 +42,23 @@ export const HeroTexts = [
     },
 
     {
-        Heading: "Batalha de dança - Break",
+        Heading: "Batalha de Break",
         Prizes: [
             "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição, lembrando que o valor da inscrição é somente um KG de alimento",
             "1º lugar: R$ 300,00",
             "2º lugar: R$ 150,00",
             "3º lugar: uma tatuagem R$ 100,00"
+            ],
+        Button: "Realizar inscrição",
+        link: "https://forms.gle/3YcxNsBJHjj9LWCm6"
+    },
+    {
+        Heading: "Torneio Free Fire",
+        Prizes: [
+            "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição",
+            "Valor da inscrição: R$ 20,00",
+            "20 VAGAS!"
+         
             ],
         Button: "Realizar inscrição",
         link: "https://forms.gle/3YcxNsBJHjj9LWCm6"
@@ -68,20 +79,33 @@ export const AboutTexts = {
 }
 
 export const OfferTexts = {
-    firstText: "What we do",
-    secondText: "All Our Offer",
+    firstText: "Movimento cultural Hip-hop",
+    
+    secondText: "Lírio do vale 2",
     list: [
         {
-            listCaption: "Weight Loose Programs",
-            text: "Our personalized approach, expert guidance, and proven results will help you achieve your fitness goals. Take the first step towards a transformed body and lifestyle today.",
+            listCaption: "Batalha de Rima",
+             text: "1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: Conjunto esportivo (camisa/calção) + R$ 100,00"
         },
         {
-            listCaption: "Body Building Programs",
-            text: "Our expert trainers will guide you through tailored workouts, helping you achieve your bodybuilding goals efficiently and safely.",
+            listCaption: "Batalha de Break",
+            text:"1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: uma tatuagem R$ 100,00",
         }
         , {
-            listCaption: "Different Special Classes",
-            text: "Take your workout to new heights with our high and intense Special Class, where you'll push your limits and achieve remarkable fitness results.",
+            listCaption: "Pocket Shows",
+            text: "Vivemos Livres, Elenco Selo, Versos Líricos.",
+        }
+        , {
+            listCaption: "Torneio de Free-fire",
+            text: "Inscrição R$ 20,00, apenas 20 vagas.",
+        }
+        , {
+            listCaption: "Grafite",
+            text: "Grafite ao vivo e premiações para a melhor.",
+        }
+        , {
+            listCaption: "Poesia Slam",
+            text: "Poesia ao vivo e premiações para a melhor.",
         }
     ],
 }
@@ -152,33 +176,32 @@ export const TestimonialTexts = {
 }
 
 export const BlogTexts = {
-    firstText: "Get informed",
-    secondText: "Our Latest News",
+    firstText: "Blog",
+    secondText: "Notíciais e informações",
     blogNews: [
         {
-            caption: "Yoga",
-            title: "Do your self realizations quickly fade",
-            paragraph: "Discover the transformative power of yoga as we explore its numerous physical and mental benefits. From increased flexibility and strength to reduced stress and enhanced mindfulness, our yoga classes cater to practitioners of all levels. Join us on the mat and experience the harmony of mind, body, and soul.",
-            time: "1m",
-            author: "Ralph Cruz",
-            comments: "21"
+            caption: "Grafiti",
+            title: "A Urbanidade em Cada Traço",
+            paragraph: "A Urbanidade em Cada Traço é um projeto de grafiti que transcende o concreto, incorporando a essência da cidade em cada detalhe.",
+            Button: "Saber mais...",
+            link: "/",
         },
         {
-            caption: "Trainers & Equipment",
-            title: "Little Things Do make a difference",
-            paragraph: "At our gym, we take pride in our exceptional team of expert trainers who are passionate about guiding you on your fitness journey. With their knowledge and personalized approach, you'll receive the support you need to achieve your fitness goals effectively. Additionally, we offer state-of-the-art equipment that's designed to elevate your workouts and provide a holistic fitness experience like no other.",
-            time: "15m",
-            author: "Bruce Charles",
-            comments: "45"
+            caption: "poesia Slam",
+            title: "A Arte da Poesia Slam",
+            paragraph: "A Arte da Poesia Slam é uma expressão intensa e vibrante, onde poetas transformam palavras em performances cativantes. ",
+            Button: "Saber mais...",
+            link: "/",
+          
         },
-        {
-            caption: "Procrastination",
-            title: "The Time is Now",
-            paragraph: "Procrastination can be a common obstacle on the path to achieving our goals. In this blog, we delve into effective strategies to overcome procrastination and increase productivity. From time management techniques to staying motivated, we're here to help you take charge of your goals and embrace a more focused and fulfilling life. It's time to seize the day and make your dreams a reality!",
-            time: "19m",
-            author: "Steve Wagner",
-            comments: "55"
-        }
+        // {
+        //     caption: "Procrastination",
+        //     title: "The Time is Now",
+        //     paragraph: "Procrastination can be a common obstacle on the path to achieving our goals. In this blog, we delve into effective strategies to overcome procrastination and increase productivity. From time management techniques to staying motivated, we're here to help you take charge of your goals and embrace a more focused and fulfilling life. It's time to seize the day and make your dreams a reality!",
+        //     time: "19m",
+        //     author: "Steve Wagner",
+        //     comments: "55"
+        // }
     ]
 }
 

@@ -43,9 +43,12 @@ const NavBar = () => {
                         {
                             NavLinks.map((navlink, index) => (
                                 <List className="w-full text-base" key={index}>
-                                <NavLink to={navlink.url} className={`relative inline-block  px-2 whitespace-nowrap text-white uppercase text-xs font-bold transition-all duration-200 hover:text-cyan-500 before:w-0 before:h-0.5 before:bg-gradient-to-r from-blue-500 to-cyan-500 before:absolute before:-bottom-[2.93rem] before:left-0 before:transition-all before:duration-200 before:ease-in hover:before:left-0.5`}>
-                                    {navlink.name}
-                                </NavLink>
+                                    <NavLink
+                                        to={navlink.url}
+                                        className={`relative inline-block px-2 whitespace-nowrap text-white uppercase text-xs font-bold transition-all duration-200 hover:text-cyan-500 active:text-blue-500 before:w-0 before:h-0.5 before:bg-gradient-to-r from-blue-500 to-cyan-500 before:absolute before:-bottom-[2.93rem] before:left-0 before:transition-all before:duration-200 before:ease-in hover:before:left-0.5`}
+                                        >
+                                        {navlink.name}
+                                    </NavLink>
                                 </List>
                             
                             ))
@@ -67,7 +70,7 @@ const NavBar = () => {
                         <div className="w-full flex pt-5 px-4 justify-between items-center">
                             <Link to={`/`} className="font-extrabold text-2xl">
                                 <span className=" text-white ">3D</span>
-                                <span className=" text-amber-500">Becas Sport Life</span>
+                                <span className=" text-blue-500">Becas Sport Life</span>
                             </Link>
                             <div className="hamburger text-white cursor-pointer" onClick={handleToggle}>
                                 <ArrowCircleRight size={25} color="currentColor" weight="light" />

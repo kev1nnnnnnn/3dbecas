@@ -2,6 +2,7 @@ import { useCallback, useRef } from "react";
 import { Image } from "../atoms/Image"
 import HeroImg1 from "../../assets/images/ben-wiens-3vuNTi8KopU-unsplash.jpg"
 import HeroImg2 from "../../assets/images/tbz-siddique-rDf1xWxJzMI-unsplash.jpg"
+import HeroImg3 from "../../assets/images/ff.png"
 
 
 import { HeroTexts } from "../particles/Data";
@@ -49,6 +50,8 @@ const HeroSection = () => {
                 return HeroImg1;
             case 1:
                 return HeroImg2;
+            case 2:
+                return HeroImg3;
             default:
                 return "";
         }
