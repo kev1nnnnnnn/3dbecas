@@ -2,27 +2,7 @@ export const NavLinks = [
     {
         name: "Home",
         url: "/"
-    },
-    // {
-    //     name: "About Us",
-    //     url: "/about"
-    // },
-    // {
-    //     name: "Schedule",
-    //     url: "/schedule"
-    // },
-    // {
-    //     name: "Gallery",
-    //     url: "/gallery"
-    // },
-    // {
-    //     name: "News",
-    //     url: "/news"
-    // },
-    // {
-    //     name: "Contacts",
-    //     url: "/contact"
-    // },
+    }
 ];
 
 
@@ -42,15 +22,14 @@ export const HeroTexts = [
     },
 
     {
-        Heading: "Batalha de Break",
+        Heading: "Campeonato de Skate",
         Prizes: [
             "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição, lembrando que o valor da inscrição é somente um KG de alimento",
-            "1º lugar: R$ 300,00",
-            "2º lugar: R$ 150,00",
-            "3º lugar: uma tatuagem no valor de: R$ 100,00"
+            "1º lugar: R$ 200,00",
+           
             ],
         Button: "Realizar inscrição",
-        link: "https://forms.gle/3YcxNsBJHjj9LWCm6"
+        link: "https://forms.gle/1V7FznuHpB4oaYkW7"
     },
     {
         Heading: "Torneio Free Fire",
@@ -61,7 +40,7 @@ export const HeroTexts = [
          
             ],
         Button: "Realizar inscrição",
-        link: "https://forms.gle/5RS9oByh3XzZcthp9"
+        link: "https://forms.gle/e3pZqUnNKznMpcwW7"
     },
     {
         Heading: "Poesia Slam",
@@ -93,8 +72,8 @@ export const OfferTexts = {
              text: "1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: Conjunto esportivo (camisa/calção) no valor de: R$ 100,00"
         },
         {
-            listCaption: "Batalha de Break",
-            text:"1º lugar: R$ 300,00, 2º lugar: R$ 150,00, 3º lugar: uma tatuagem no valor de: R$ 100,00",
+            listCaption: "Apresentação de danças - Break",
+            text:"Será apresentado pelo grupo profissional.",
         }
         , {
             listCaption: "Pocket Shows",
@@ -110,7 +89,11 @@ export const OfferTexts = {
         }
         , {
             listCaption: "Poesia Slam",
-            text: "Poesia ao vivo e premiações para a melhor.",
+            text: "Poesia ao vivo e premiação de R$ 200,00 para a melhor.",
+        }
+        , {
+            listCaption: "Campeonato de skate",
+            text: "Premiação de R$ 200,00 para o campeão.",
         }
     ],
 }
