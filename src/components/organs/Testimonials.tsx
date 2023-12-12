@@ -5,6 +5,8 @@ import cacau from "../../assets/patrocinios/caucautatto.jpg"
 import djkinho from "../../assets/patrocinios/djkinho.jpg"
 import phtelecom from "../../assets/patrocinios/phtelecom.jpg"
 import quebrada from "../../assets/patrocinios/quebradaforte.jpg"
+import ar from "../../assets/patrocinios/AR.png"
+import barber from "../../assets/patrocinios/barber.png"
 import { useCallback } from "react";
 import Slider from "react-slick";
 import { Card } from "../molecules/Card";
@@ -70,6 +72,10 @@ const Testimonials = () => {
                 return cacau;
             case 4:
                 return quebrada;
+            case 5:
+                return barber;
+            case 6:
+                return ar;
             default:
                 return "";
         }

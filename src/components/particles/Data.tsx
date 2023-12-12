@@ -66,10 +66,8 @@ export const HeroTexts = [
     {
         Heading: "Poesia Slam",
         Prizes: [
-            "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição",
-            "inscrição é somente um KG de alimento",
-        
-         
+            "A inscrição é realizado através do link, ao clicar, você será redirecionado para um formulário para está realizando a sua inscrição, lembrando que o valor da inscrição é somente um KG de alimento",
+            "1º lugar: R$ 200,00",
             ],
         Button: "Realizar inscrição",
         link: "https://forms.gle/U8fU5qaQNmepVjM66"
@@ -177,6 +175,16 @@ export const TestimonialTexts = {
         {
             text: "Roupas ",
             person: "Vestindo o Hip-Hop, Estilo que Resiste e Inspira.",
+            type: "Parceria"
+        },
+        {
+            text: "Barber King",
+            person: "Barger King e você, tudo a ver!!",
+            type: "Parceria"
+        },
+        {
+            text: "Alberto Reis ",
+            person: "",
             type: "Parceria"
         }
     ],
